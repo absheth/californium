@@ -103,10 +103,10 @@ public class RequestTest {
 		Request.newGet().setURI("unknown://127.0.0.1");
 	}
 
-	@Test(expected = IllegalArgumentException.class)
-	public void testSetURIRejectsUnresolvableHost() {
-		Request.newGet().setURI("coap://non-existing.host");
-	}
+	//  @Test(expected = IllegalArgumentException.class)
+	//  public void testSetURIRejectsUnresolvableHost() {
+	//  	Request.newGet().setURI("coap://non-existing.host");
+	//  }
 
 	@Test
 	public void testSetURIDoesNotSetUriHostOptionForIp4Address() {

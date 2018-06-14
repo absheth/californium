@@ -67,6 +67,7 @@ public class GETClient {
 					// access advanced API with access to more details through
 					// .advanced()
 					System.out.println(Utils.prettyPrint(response));
+					// System.out.println("After server interaction");
 				}
 			} else {
 				System.out.println("No response received.");
